@@ -1,4 +1,6 @@
-change_in_time = global.data[0, step] - time; 
+/*
+var change_in_time = global.data[0, step] - time; 
+image_index = global.data[5, step];
 time = global.data[0, step]; // update time
 
 angle_x = sin(pitch/180 * pi);    // Effect of pitch on x
