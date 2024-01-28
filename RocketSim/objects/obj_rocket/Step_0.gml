@@ -7,7 +7,7 @@ angle_z = cos(pitch/180 * pi) * cos(yaw/180 * pi); // Combined effect on z
 
 // Calculate the angle of attack as the angle between the directional vector and the vertical axis (z-axis)
 angle_of_attack = arccos(angle_z / sqrt(angle_x * angle_x + angle_y * angle_y + angle_z * angle_z));
-x += 39*(cos(angle_of_attack)*velocity)*change_in_time; // update x position with angle of attack
+x += 39*(tan(angle_of_attack)*velocity)*change_in_time; // update x position with angle of attack
 
 y = 47000-(39*global.data[2, step]); // update y position
 altitude = y;
