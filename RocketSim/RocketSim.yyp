@@ -35,8 +35,12 @@
   },
   "resources": [
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
+    {"id":{"name":"spr_rocket","path":"sprites/spr_rocket/spr_rocket.yy",},},
+    {"id":{"name":"rocket","path":"shaders/rocket/rocket.yy",},},
     {"id":{"name":"Room1_1","path":"rooms/Room1_1/Room1_1.yy",},},
     {"id":{"name":"tls_grass","path":"tilesets/tls_grass/tls_grass.yy",},},
+    {"id":{"name":"obj_rocket","path":"objects/obj_rocket/obj_rocket.yy",},},
+    {"id":{"name":"spr_rocket_v2","path":"sprites/spr_rocket_v2/spr_rocket_v2.yy",},},
     {"id":{"name":"spr_grass","path":"sprites/spr_grass/spr_grass.yy",},},
   ],
   "RoomOrderNodes": [

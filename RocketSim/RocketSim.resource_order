@@ -17,6 +17,9 @@
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"spr_rocket","order":1,"path":"sprites/spr_rocket/spr_rocket.yy",},
     {"name":"Room1_1","order":1,"path":"rooms/Room1_1/Room1_1.yy",},
+    {"name":"obj_rocket","order":1,"path":"objects/obj_rocket/obj_rocket.yy",},
+    {"name":"spr_rocket_v2","order":2,"path":"sprites/spr_rocket_v2/spr_rocket_v2.yy",},
   ],
 }
