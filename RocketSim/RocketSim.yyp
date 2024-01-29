@@ -41,7 +41,7 @@
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"spr_rocket","path":"sprites/spr_rocket/spr_rocket.yy",},},
     {"id":{"name":"par_jet","path":"particles/par_jet/par_jet.yy",},},
-    {"id":{"name":"rocket","path":"shaders/rocket/rocket.yy",},},
+    {"id":{"name":"shd_greyscale","path":"shaders/shd_greyscale/shd_greyscale.yy",},},
     {"id":{"name":"Room1_1","path":"rooms/Room1_1/Room1_1.yy",},},
     {"id":{"name":"tls_grass","path":"tilesets/tls_grass/tls_grass.yy",},},
     {"id":{"name":"importdata","path":"scripts/importdata/importdata.yy",},},
