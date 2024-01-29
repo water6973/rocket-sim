@@ -7,7 +7,7 @@ If generating test data, run test_flight_data_generator.py in local Python compi
 Use middle mouse to pan, scroll wheel to go in and out.
 
 COMING NEXT RELEASE:
-- New camera mode (track trajectory and unlock camera from rocket!
+- New camera mode (track trajectory and unlock camera from rocket!)
 - Resource mode (optimized so it doesn't lag and cap at like five times slomo!)
 
 FOR OUR PATREON SUPPORTERS: 
