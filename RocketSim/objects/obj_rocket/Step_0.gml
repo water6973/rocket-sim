@@ -20,6 +20,6 @@ show_debug_message(y);
 
 image_angle = -(angle_of_attack * 180 / pi);
 
-if (!paused) {
+if (!paused && step < ds_grid_height(global.data)) {
 	step++;
 }
