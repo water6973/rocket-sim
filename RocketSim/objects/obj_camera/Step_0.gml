@@ -1,8 +1,8 @@
 // Set the amount to increase or decrease the viewport size
-zoom_step = 100;
+var zoom_step = 100;
 
 // Get the current camera view size
-cam = view_camera[0];
+var cam = view_camera[0];
 view_w = camera_get_view_width(cam);
 view_h = camera_get_view_height(cam);
 

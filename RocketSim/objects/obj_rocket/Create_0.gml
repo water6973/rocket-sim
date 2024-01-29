@@ -6,8 +6,8 @@ importdata("flight_data.csv");
 if (!global.data){
 	show_debug_message("No data!");
 }
-show_debug_message("Array Length: " + string(array_length_2d(global.data, 1)));
-
+show_debug_message("Array Width: " + string(ds_grid_width(global.data)));
+show_debug_message("Array Height: " + string(ds_grid_height(global.data)));
 
 time = 0;
 velocity = 0;	
