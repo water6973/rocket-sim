@@ -1,7 +1,7 @@
 {
   "resourceType": "GMShader",
   "resourceVersion": "1.0",
-  "name": "shd_greyscale",
+  "name": "shd_stylized",
   "parent": {
     "name": "Shaders",
     "path": "folders/Shaders.yy",
