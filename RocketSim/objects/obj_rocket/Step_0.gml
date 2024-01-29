@@ -2,7 +2,7 @@ var change_in_time = global.data[# 0, step] - time;
 image_index = global.data[# 5, step];
 time = global.data[# 0, step]; // update time
 
-altitude = real(global.data[# 2, step]); // set altitude
+altitude = real(global.data[# 2, step])-58; // set altitude
 
 velocity = real(global.data[# 1, step]);
 
@@ -22,4 +22,9 @@ image_angle = -(angle_of_attack * 180 / pi);
 
 if (!paused) {
 	step++;
+}
+
+if(global.data[# 6,step]==true){
+	var ps = part_system_create_layer("Instances_2", false);
+	part_particles_burst(ps,x,y-56,par_jet);
 }
