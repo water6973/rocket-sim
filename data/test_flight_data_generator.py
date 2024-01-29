@@ -1,8 +1,8 @@
 import csv
 
 # Constants
-initial_velocity = 150  # m/s
-acceleration = -10  # m/s^2
+initial_velocity = 100  # m/s
+acceleration = -15  # m/s^2
 pitch = 1  # degree
 yaw = 1  # degree
 time_increment = 5  # milliseconds
@@ -29,7 +29,7 @@ with open('flight_data.csv', 'w', newline='') as file:
     writer.writerow(['Time (ms)', 'Velocity (m/s)', 'Altitude (m)', 'Pitch (degree)', 'Yaw (degree)', 'Extension Level', 'Motor Burning', 'Acceleration (m/s^2)'])
 
     # Generate data for each entry
-    for i in range(6001):  # Adjust the range as needed for longer data
+    for i in range(2000):  # Adjust the range as needed for longer data
         # Calculate the new altitude
         altitude = next_altitude(altitude, velocity, time_increment)
         # Update velocity
