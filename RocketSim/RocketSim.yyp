@@ -36,6 +36,7 @@
     "IDEVersion": "2023.8.2.106",
   },
   "resources": [
+    {"id":{"name":"spr_line","path":"sprites/spr_line/spr_line.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"spr_rocket","path":"sprites/spr_rocket/spr_rocket.yy",},},
     {"id":{"name":"rocket","path":"shaders/rocket/rocket.yy",},},

@@ -11,8 +11,8 @@ if (mouse_wheel_up()) {
     view_w = max(view_w - zoom_step, 500); // Replace 'minimum_width' with your desired minimum
     view_h = max(view_h - zoom_step, 500); // Replace 'minimum_height' with your desired minimum
 } else if (mouse_wheel_down()) {
-    view_w = min(view_w + zoom_step, 10000); // Replace 'maximum_width' with your desired maximum
-    view_h = min(view_h + zoom_step, 10000); // Replace 'maximum_height' with your desired maximum
+    view_w = min(view_w + zoom_step, 50000); // Replace 'maximum_width' with your desired maximum
+    view_h = min(view_h + zoom_step, 50000); // Replace 'maximum_height' with your desired maximum
 }
 
 // Set the new camera view size

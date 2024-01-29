@@ -6,7 +6,7 @@ importdata("flight_data.csv");
 if (!global.data){
 	show_debug_message("No data!");
 }
-show_debug_message("Step: " + string(step) + ", Array Length: " + string(array_length_2d(global.data, 1)));
+show_debug_message("Array Length: " + string(array_length_2d(global.data, 1)));
 
 
 time = 0;
