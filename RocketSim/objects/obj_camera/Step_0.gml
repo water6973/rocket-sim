@@ -9,11 +9,11 @@ view_h = camera_get_view_height(cam);
 
 // Check for mouse wheel input and adjust the view size
 if (mouse_wheel_up()) {
-    view_w = max(view_w - zoom_stepw, 160); // Replace 'minimum_width' with your desired minimum
-    view_h = max(view_h - zoom_steph, 90); // Replace 'minimum_height' with your desired minimum
+    view_w = max(view_w - zoom_stepw, 160); 
+    view_h = max(view_h - zoom_steph, 90); 
 } else if (mouse_wheel_down()) {
-    view_w = min(view_w + zoom_stepw, 16000); // Replace 'maximum_width' with your desired maximum
-    view_h = min(view_h + zoom_steph, 9000); // Replace 'maximum_height' with your desired maximum
+    view_w = min(view_w + zoom_stepw, 16000);
+    view_h = min(view_h + zoom_steph, 9000); 
 }
 
 // Set the new camera view size
