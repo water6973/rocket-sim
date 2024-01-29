@@ -25,7 +25,7 @@ y = 47000-(157*altitude); // update y position
 
 image_angle = -(angle_of_attack * 180 / pi);
 
-if (!paused && step < ds_grid_height(global.data)) {
+if (!paused && step < ds_grid_height(global.data)-1) {
 	step++;
 }
 
