@@ -3,8 +3,8 @@ import csv
 # Constants
 initial_velocity = 100  # m/s
 acceleration = -15  # m/s^2
-pitch = 1  # degree
-yaw = 1  # degree
+pitch = 10  # degree
+yaw = 0  # degree
 time_increment = 5  # milliseconds
 
 # Initialize variables
