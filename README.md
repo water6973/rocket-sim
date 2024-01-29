@@ -9,6 +9,7 @@ Use middle mouse to pan, scroll wheel to go in and out.
 COMING NEXT RELEASE:
 - New camera mode (track trajectory and unlock camera from rocket!)
 - Resource mode (optimized so it doesn't lag and cap at like five times slomo!)
+- Angular jet trails!
 
 FOR OUR PATREON SUPPORTERS: 
-- Adds usability (now you can actually run it!)
+- Adds usability (now you can actually run it via .exe!)
