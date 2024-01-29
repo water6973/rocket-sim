@@ -1,7 +1,7 @@
 step=0;
 image_speed = 0;
 room_speed = 200;
-importdata("angled_flight_data.csv");
+importdata("flight_data.csv");
 
 if (!global.data){
 	show_debug_message("No data!");
