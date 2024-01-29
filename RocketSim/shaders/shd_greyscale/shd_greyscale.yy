@@ -1,7 +1,7 @@
 {
   "resourceType": "GMShader",
   "resourceVersion": "1.0",
-  "name": "rocket",
+  "name": "shd_greyscale",
   "parent": {
     "name": "Shaders",
     "path": "folders/Shaders.yy",
