@@ -8,13 +8,10 @@ OR
 
 Unzip the .zip file and run the .exe (You still have to manually swap out datafiles though)
 
-Use middle mouse to pan, scroll wheel to go in and out.
+Use middle mouse to pan, scroll wheel to go in and out. c to change functionality, r to restart the simulation, space to pause.
 
 COMING NEXT RELEASE:
 - New camera mode (track trajectory and unlock camera from rocket!)
 - Resource mode (optimized so it doesn't lag and cap at like five times slomo!)
 - Angular jet trails!
 - Choose .csv files that you want to use!
-
-FOR OUR PATREON SUPPORTERS: 
-- Adds usability (now you can actually run it via .exe!)
