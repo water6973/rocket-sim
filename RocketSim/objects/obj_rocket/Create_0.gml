@@ -1,7 +1,7 @@
 step=0;
 image_speed = 0;
 room_speed = 200;
-importdata("flight_data.csv");
+importdata("angled_flight_data.csv");
 
 if (!global.data){
 	show_debug_message("No data!");
@@ -12,8 +12,6 @@ show_debug_message("Array Height: " + string(ds_grid_height(global.data)));
 time = 0;
 velocity = 0;	
 altitude=0;
-pitch=0;
-yaw=0;
 
 angle_x = 0;
 angle_y = 0; 

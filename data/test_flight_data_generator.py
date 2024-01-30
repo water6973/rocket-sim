@@ -13,6 +13,7 @@ velocity = initial_velocity
 altitude = 0
 extension_level = 2
 motor_burning = True
+angle_of_attack = 45
 
 # Function to calculate the next altitude
 def next_altitude(altitude, velocity, time_increment):
@@ -26,7 +27,7 @@ def next_altitude(altitude, velocity, time_increment):
 with open('flight_data.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     # Write the header
-    writer.writerow(['Time (ms)', 'Velocity (m/s)', 'Altitude (m)', 'Pitch (degree)', 'Yaw (degree)', 'Extension Level', 'Motor Burning', 'Acceleration (m/s^2)'])
+    writer.writerow(['Time (ms)', 'Velocity (m/s)', 'Altitude (m)', 'Pitch (degree)', 'Yaw (degree)', 'Extension Level', 'Motor Burning', 'Acceleration (m/s^2)', 'Angle of Attack (degrees)'], )
 
     # Generate data for each entry
     for i in range(2000):  # Adjust the range as needed for longer data
@@ -41,7 +42,7 @@ with open('flight_data.csv', 'w', newline='') as file:
         if (i % 333) == 0 and i != 0:
             extension_level = 1 if extension_level == 2 else 2
         # Write data to CSV
-        writer.writerow([time, velocity, altitude, pitch, yaw, extension_level, motor_burning, acceleration])
+        writer.writerow([time, velocity, altitude, pitch, yaw, extension_level, motor_burning, acceleration, angle_of_attack])
         # Increment time
         time += time_increment
 
