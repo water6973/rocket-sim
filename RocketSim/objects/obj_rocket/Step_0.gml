@@ -8,7 +8,7 @@ yaw = real(global.data[# 4, step]);
 
 time = global.data[# 0, step]; // update time
 
-altitude = real(global.data[# 2, step]) + 7; // set altitude
+altitude = real(global.data[# 2, step])-1.5; // set altitude
 
 velocity = real(global.data[# 1, step]);
 
