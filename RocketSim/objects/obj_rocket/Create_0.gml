@@ -13,10 +13,7 @@ time = 0;
 velocity = 0;	
 altitude=0;
 
-angle_x = 0;
-angle_y = 0; 
-angle_z = 0;
-angle_of_attack = 0;
+angle_of_attack=0;
 
 extension_level = 2;
 

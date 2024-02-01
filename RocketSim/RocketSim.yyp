@@ -34,15 +34,17 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.106",
+    "IDEVersion": "2023.11.1.129",
   },
   "resources": [
     {"id":{"name":"spr_line","path":"sprites/spr_line/spr_line.yy",},},
+    {"id":{"name":"matrices","path":"scripts/matrices/matrices.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"spr_rocket","path":"sprites/spr_rocket/spr_rocket.yy",},},
     {"id":{"name":"par_jet","path":"particles/par_jet/par_jet.yy",},},
     {"id":{"name":"shd_stylized","path":"shaders/shd_stylized/shd_stylized.yy",},},
     {"id":{"name":"Room1_1","path":"rooms/Room1_1/Room1_1.yy",},},
+    {"id":{"name":"vectors","path":"scripts/vectors/vectors.yy",},},
     {"id":{"name":"tls_grass","path":"tilesets/tls_grass/tls_grass.yy",},},
     {"id":{"name":"importdata","path":"scripts/importdata/importdata.yy",},},
     {"id":{"name":"obj_rocket","path":"objects/obj_rocket/obj_rocket.yy",},},

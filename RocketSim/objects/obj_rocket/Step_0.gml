@@ -28,3 +28,11 @@ if(global.data[# 6,step]){
 	var ps = part_system_create_layer("Instances_2", false);
 	part_particles_burst(ps,x,y-56,par_jet);
 }
+
+if(keyboard_check_pressed(vk_space)){
+paused = !paused;	
+}
+
+if(keyboard_check_pressed(ord("R"))){
+step=0;
+}

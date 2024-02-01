@@ -15,9 +15,9 @@ void main()
 	float rb = fract(sin(st.x*st.y*745732.2552*col.b)*st.x*st.y*4538567.2234*col.b);
 	
 	float avg = (col.r+col.g+col.b)/3.0;
-	col.r+=rr;
-	col.g+=rg;
-	col.b+=rb;
+	col.r+=rr-0.2;
+	col.g+=rg-0.1;
+	col.b+=rb+0.1;
 	
     gl_FragColor = col;
 }
